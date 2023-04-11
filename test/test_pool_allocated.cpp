@@ -7,8 +7,6 @@
  * \author Martin Pecka
  */
 
-#include "sensor_msgs/LaserEcho.h"
-#include "sensor_msgs/MultiEchoLaserScan.h"
 #include "gtest/gtest.h"
 
 #include <vector>
