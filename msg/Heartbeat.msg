@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-FileCopyrightText: Czech Technical University in Prague
+
 # Heartbeat messages can be sent by sensor drivers to allow easy diagnostics of publishing rate without the need to
 # subscribe their possibly very large sensor messages.
 # The following naming convention should be used. If the sensor topic is TOPIC, the corresponding heartbeat messages

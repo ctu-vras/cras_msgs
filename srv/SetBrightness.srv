@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-FileCopyrightText: Czech Technical University in Prague
+
+# Set the brightness of e.g. a dimmable light.
+
+Brightness value  # The requested brightness.
+---
+# If a failure occurs, the service server should throw an exception.

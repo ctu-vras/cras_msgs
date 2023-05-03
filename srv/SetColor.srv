@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-FileCopyrightText: Czech Technical University in Prague
+
+# Set color of e.g. a color light (RGB LED, OLED...).
+
+std_msgs/ColorRGBA color  # The requested color. All channels values 0.0 - 1.0.
+                          # If this denotes the color of a (LED) light, black means either no light or actual
+                          # black if the device can produce it.
+                          # Some devices may use alpha e.g. as backlight intensity or as visual preview alpha,
+                          # so rather set it to 1.0 if you don't know.
+---
+# If a failure occurs, the service server should throw an exception.

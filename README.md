@@ -15,6 +15,26 @@ The following naming convention should be used. If the sensor topic is `TOPIC`, 
 should be published to `TOPIC/heartbeat`. If this convention is followed, diagnostic tools can automatically assign
 the heartbeats to the correct base topics.
 
+### Brightness, BrightnessStamped, SetBrightness
+
+Brightness of e.g. a dimmable light with values ranging from 0.0 (dark) to 1.0 (full brightness).
+
+### ColorRGBAStamped, SetColor
+
+Color of e.g. a color light or observed object.
+
+### ElectricCurrent, ElectricCurrentMeasurement, ElectricCurrentStamped
+
+Representation of electric current measurements and values.
+
+### PowerSwitchState, PowerSwitchStateStamped
+
+State of an electric power switch (relay, transistor, FET...).
+
+### Voltage, VoltageMeasurement, VoltageStamped
+
+Representation of voltage measurements and values.
+
 ## C++ Helper - Pool-Allocated Sensor Messages
 
 Header `pool_allocated_sensor_msgs.h` contains several defines of alternative message types to `sensor_msgs` types,

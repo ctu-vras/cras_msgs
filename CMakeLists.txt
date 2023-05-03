@@ -7,7 +7,23 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 add_message_files(FILES
+  Brightness.msg
+  BrightnessStamped.msg
+  ColorRGBAStamped.msg
+  ElectricCurrent.msg
+  ElectricCurrentMeasurement.msg
+  ElectricCurrentStamped.msg
   Heartbeat.msg
+  PowerSwitchState.msg
+  PowerSwitchStateStamped.msg
+  Voltage.msg
+  VoltageMeasurement.msg
+  VoltageStamped.msg
+)
+
+add_service_files(FILES
+  SetBrightness.srv
+  SetColor.srv
 )
 
 generate_messages(DEPENDENCIES
