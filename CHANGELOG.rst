@@ -2,8 +2,8 @@
 Changelog for package cras_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2023-05-04)
+------------------
 * Added new messages (mostly for electronic_io).
 * Clean up undesired includes.
 * Contributors: Martin Pecka
