@@ -14,6 +14,9 @@ add_message_files(FILES
   ElectricCurrentMeasurement.msg
   ElectricCurrentStamped.msg
   Heartbeat.msg
+  Power.msg
+  PowerMeasurement.msg
+  PowerStamped.msg
   PowerSwitchState.msg
   PowerSwitchStateStamped.msg
   Voltage.msg

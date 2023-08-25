@@ -27,6 +27,10 @@ Color of e.g. a color light or observed object.
 
 Representation of electric current measurements and values.
 
+### Power, PowerMeasurement, PowerStamped
+
+Representation of electrical or mechanical power measurements and values.
+
 ### PowerSwitchState, PowerSwitchStateStamped
 
 State of an electric power switch (relay, transistor, FET...).
