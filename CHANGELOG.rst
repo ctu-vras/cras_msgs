@@ -2,6 +2,11 @@
 Changelog for package cras_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Added power messages.
+* Contributors: Martin Pecka
+
 1.1.0 (2023-05-04)
 ------------------
 * Added new messages (mostly for electronic_io).
