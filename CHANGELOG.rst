@@ -2,8 +2,8 @@
 Changelog for package cras_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.1 (2023-08-25)
+------------------
 * Added power messages.
 * Contributors: Martin Pecka
 
