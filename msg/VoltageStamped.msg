@@ -3,6 +3,6 @@
 
 # Single voltage measurement.
 
-Header header  # stamp is the time the voltage was measured.
-               # frame_id is the location of the voltage measurement (does not need to be a TF frame).
+std_msgs/Header header  # stamp is the time the voltage was measured.
+                        # frame_id is the location of the voltage measurement (does not need to be a TF frame).
 VoltageMeasurement measurement  # The measured voltage.

@@ -3,6 +3,6 @@
 
 # Single stamped electric current measurement.
 
-Header header  # stamp is the time the current was measured.
-               # frame_id is the location of the current measurement (does not need to be a TF frame).
+std_msgs/Header header  # stamp is the time the current was measured.
+                        # frame_id is the location of the current measurement (does not need to be a TF frame).
 ElectricCurrentMeasurement measurement  # The measured current.

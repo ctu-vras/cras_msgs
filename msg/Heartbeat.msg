@@ -7,4 +7,4 @@
 # should be published to TOPIC/heartbeat . If this convention is followed, diagnostic tools can automatically assign
 # the heartbeats to the correct base topics.
  
-Header header  # Header of a (possibly much larger) message to which the heartbeat belongs
+std_msgs/Header header  # Header of a (possibly much larger) message to which the heartbeat belongs

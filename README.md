@@ -1,5 +1,8 @@
 # cras_msgs
 
+![ROS 1 compatible](https://img.shields.io/badge/ROS-1-blue)
+![ROS 2 compatible](https://img.shields.io/badge/ROS-2-blue)
+
 Common ROS messages used by [Center for Robotics and Autonomous Systems (CRAS)](https://robotics.fel.cvut.cz/cras/) at [Faculty of Electrical Engineering](https://fel.cvut.cz/) of [Czech Technical University in Prague](https://www.cvut.cz).
 
 Parts of this package were used by [team CTU-CRAS-Norlab in DARPA Subterranean Challenge](https://robotics.fel.cvut.cz/cras/darpa-subt/).
@@ -39,7 +42,7 @@ State of an electric power switch (relay, transistor, FET...).
 
 Representation of voltage measurements and values.
 
-## C++ Helper - Pool-Allocated Sensor Messages
+## (ROS 1) C++ Helper - Pool-Allocated Sensor Messages
 
 Header `pool_allocated_sensor_msgs.h` contains several defines of alternative message types to `sensor_msgs` types,
 which use a shared pool allocator for the dynamic-sized data they contain (strings and vectors). If you allocate a lot
