@@ -1,7 +1,11 @@
+<!-- SPDX-License-Identifier: BSD-3-Clause -->
+<!-- SPDX-FileCopyrightText: Czech Technical University in Prague -->
+
 # cras_msgs
 
-![ROS 1 compatible](https://img.shields.io/badge/ROS-1-blue)
-![ROS 2 compatible](https://img.shields.io/badge/ROS-2-blue)
+![ROS 1 compatible](https://img.shields.io/badge/ROS-1-blue) ![Melodic](https://img.shields.io/badge/melodic-green) ![Noetic](https://img.shields.io/badge/noetic-green)
+
+![ROS 2 compatible](https://img.shields.io/badge/ROS-2-blue) ![Jazzy](https://img.shields.io/badge/jazzy-green) ![Kilted](https://img.shields.io/badge/kilted-green) ![Rolling](https://img.shields.io/badge/rolling-green)
 
 Common ROS messages used by [Center for Robotics and Autonomous Systems (CRAS)](https://robotics.fel.cvut.cz/cras/) at [Faculty of Electrical Engineering](https://fel.cvut.cz/) of [Czech Technical University in Prague](https://www.cvut.cz).
 
