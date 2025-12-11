@@ -127,6 +127,7 @@ elseif(ament_cmake_FOUND)
       "srv/SetBrightness.srv"
       "srv/SetColor.srv"
       DEPENDENCIES std_msgs
+      ADD_LINTER_TESTS
     )
 
     if(BUILD_TESTING)
