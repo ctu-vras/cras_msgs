@@ -5,6 +5,12 @@
 Changelog for package cras_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* CI: Fixed name of license lint action
+* Fixed package website link
+* Contributors: Martin Pecka
+
 2.0.0 (2026-01-26)
 ------------------
 * Lint generated message files
