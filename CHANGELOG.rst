@@ -5,6 +5,15 @@
 Changelog for package cras_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Lint generated message files
+* Add ros_environment as a build dependency to make ROS_DISTRO available for CMake.
+* Added CI.
+* ROS 2 port.
+  master branch is now compatible with both ROS 1 and ROS 2.
+* Contributors: Martin Pecka
+
 1.1.1 (2023-08-25)
 ------------------
 * Added power messages.
